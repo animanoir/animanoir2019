@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Fantasmas, espectros y seres etéreos.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  jekyll
+github_username:  animanoir
 
 # Build settings
 markdown: kramdown
