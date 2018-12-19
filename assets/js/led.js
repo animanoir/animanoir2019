@@ -1,16 +1,17 @@
-let led;
-let galaxia;
-let x = -200;
+let led; //Imagen transparente.
+let galaxia; //Imagen que va dentro de led.
+let x = -200; //Eje x de la imagen para que se mueva.
+let alpha = 0; //Transparencia de la imagen para un efecto lindo de aparición.
 
-//Array de imágenes de galaxias
-let galaxias = ["../js/led/orion.jpg", "../js/led/horse.jpg", "../js/led/swan.jpg", "../js/led/bubble.jpg", "../js/led/n3.jpg", "../js/led/westerlund.jpg", "../js/led/supernova.jpg"];
+//Array de imágenes.
+let galaxias = ["assets/js/n1.jpg", "assets/js/n2.jpg"];
 let galaxiaElegida;
 
 function preload() {
   //Selecciona un index de galaxias al azar
   galaxiaElegida = (int(random(galaxias.length)));
   galaxia = loadImage(galaxias[galaxiaElegida]);
-  led = loadImage("led-transparente.png");
+  led = loadImage("assets/js/led-transparente.png");
 }
 
 function setup() {
@@ -21,16 +22,26 @@ function setup() {
 
 function draw() {
   background(0);
-  x += 0.05;
+  cambiarNebula();
+  //Máscara transparente
+  image(led, 0, 0);
+}
+
+// Esta función hace el cambio de las nébulas que salen dentro de Led.
+function cambiarNebula(){
+  // x es el eje x donde se mueve la ImageBitmapRenderingContext. 
+  x += 0.25;
+  // alpha es para el efecto como de aparecer.
+  alpha += 4;
   push();
+  // Cuando es mayor o igual a -100, hace lo que está dentro, que es como reiniciar.
   if (x >= -100) {
     galaxiaElegida = (int(random(galaxias.length)));
     galaxia = loadImage(galaxias[galaxiaElegida]);
     x = -200;
+    alpha = 0;
   }
+  tint(255, alpha);
   image(galaxia, x, 0);
   pop();
-
-  //Máscara
-  image(led, 0, 0);
 }
