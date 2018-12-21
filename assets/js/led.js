@@ -1,10 +1,11 @@
+// p5.js
 let led; //Imagen transparente.
 let galaxia; //Imagen que va dentro de led.
 let x = -200; //Eje x de la imagen para que se mueva.
 let alpha = 0; //Transparencia de la imagen para un efecto lindo de aparición.
 
 //Array de imágenes.
-let galaxias = ["assets/js/n1.jpg", "assets/js/n2.jpg"];
+let galaxias = ["assets/js/n1.jpg", "assets/js/n2.jpg", "assets/js/n3.jpg", "assets/js/n4.jpg"];
 let galaxiaElegida;
 
 function preload() {
@@ -28,11 +29,11 @@ function draw() {
 }
 
 // Esta función hace el cambio de las nébulas que salen dentro de Led.
-function cambiarNebula(){
+function cambiarNebula() {
   // x es el eje x donde se mueve la ImageBitmapRenderingContext. 
-  x += 0.25;
+  x += 0.29;
   // alpha es para el efecto como de aparecer.
-  alpha += 4;
+  alpha += 3;
   push();
   // Cuando es mayor o igual a -100, hace lo que está dentro, que es como reiniciar.
   if (x >= -100) {
@@ -44,4 +45,22 @@ function cambiarNebula(){
   tint(255, alpha);
   image(galaxia, x, 0);
   pop();
+}
+
+
+
+window.onload = function () {
+
+  let idP5 = document.querySelector("#p5");
+  let idLimboNombre = document.querySelector("#limbo-nombre");
+
+  idP5.onmouseover = function () {
+    idLimboNombre.style.textShadow = "1px 5px 1px #ff0000, 1px 10px 2px green, 1px 15px 3px #0000ff";
+
+  };
+
+  idP5.onmouseleave = function () {
+    idLimboNombre.style.textShadow = null;
+  };
+
 }
