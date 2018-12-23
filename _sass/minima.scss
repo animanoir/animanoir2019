@@ -1,13 +1,33 @@
 @charset "utf-8";
-// Importa el CSS de las estrellas (lo pongo en otro docu para no tener todo aquí)
+// Importa el CSS de las estrellas (lo pongo en otro docu para no tener todo aquí y se alente la máquina.)
 @import "minima/estrellas";
+
+$fuente-josefin: 'Josefin Sans', sans-serif;
+
+/* Mixin para vertical-align */
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+// Mixin para centrar
+@mixin centrar() {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /*El translate hace que el punto de anclaje esté en el centro.*/
+  transform: translate(-50%, -50%);
+}
 
 // Todos recomiendan usar ésto, jej.
 * {
   box-sizing: border-box;
 }
 
-::selection{
+::selection {
   background: #DF0202;
 }
 
@@ -16,9 +36,13 @@
   background: black;
 }
 
-.fuente-josefin {
-  font-family: 'Josefin Sans', sans-serif;
+.fuente-josefin-limbo {
+  font-family: $fuente-josefin;
   font-size: 4rem !important;
+}
+
+.fuente-josefin{
+  font-family: $fuente-josefin;
 }
 
 .letras-separadas {
@@ -32,9 +56,9 @@
 
 // Centra un div en el absoluto centro.
 .centrar {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  /*El translate hace que el punto de anclaje esté en el centro.*/
-  transform: translate(-50%, -50%);
+  @include centrar();
+}
+
+.vertical-align {
+  @include vertical-align();
 }
