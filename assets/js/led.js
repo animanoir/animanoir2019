@@ -51,11 +51,12 @@ function cambiarNebula() {
 
 window.onload = function () {
 
+  // Para no usar jQuery:
   let idP5 = document.querySelector("#p5");
   let idLimboNombre = document.querySelector("#limbo-nombre");
 
   idP5.onmouseover = function () {
-    idLimboNombre.style.textShadow = "1px 5px 1px #ff0000, 1px 10px 2px green, 1px 15px 3px #0000ff";
+    idLimboNombre.style.textShadow = "-4px 5px 1px red, 1px 4px 2px green, 4px 7px 3px blue";
 
   };
 
