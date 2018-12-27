@@ -137,12 +137,18 @@ body{
   transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
 }
 
+#menu-lateral a{
+  color: white;
+  text-decoration: none;
+}
+
 #menu-lateral{
-  z-index: 100;
+  z-index: 1;
   background-color: rgba($color:black, $alpha: 0.6);
-  position: absolute;
+  position: fixed;
   right: 0;
-  margin-top: calc(50% - 350px);
+  bottom: calc(100% - 96vh);
+  // padding-top: calc(100vh - 79%);
 }
 
 .menu-lateral-elemento:hover{
