@@ -7,7 +7,7 @@ image: "/assets/gifs/sonorum.gif"
 permalink: post5
 ---
 <div class="pb-4">
-<div class="display-1 fuente-josefin ">Post 5</div>
+<p class="display-1 fuente-josefin color-post-titulo">Post 5</p>
 </div>
 
 <div class="fuente-opensans color-lectura" markdown="1">

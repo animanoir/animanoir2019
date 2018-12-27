@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Post 2"
+title:  "Arista"
 date:   2018-12-15 19:52:01 -0600
 categoria: interaccion
 image: "/assets/gifs/arista-web.gif"
 permalink: post2
 ---
 <div class="pb-4">
-<div class="display-1 fuente-josefin ">Post 2</div>
+<div class="display-2 fuente-josefin color-post-titulo">Arista.mx</div>
 </div>
 
 <div class="fuente-opensans color-lectura" markdown="1">

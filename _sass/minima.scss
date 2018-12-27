@@ -4,8 +4,9 @@
 
 $fuente-josefin: 'Josefin Sans', sans-serif;
 $fuente-opensans: 'Open Sans', sans-serif;
-$color-lectura: rgb(206, 206, 206);
+$color-lectura: rgb(233, 233, 233);
 $color-seleccion: #DF0202;
+$color-post-titulo: rgb(199, 0, 0);
 
 
 // Scrollbar personal
@@ -199,4 +200,8 @@ body{
 
 .color-lectura{
   color: $color-lectura;
+}
+
+.color-post-titulo{
+  color: $color-post-titulo;
 }
