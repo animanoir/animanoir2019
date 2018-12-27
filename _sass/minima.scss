@@ -3,6 +3,8 @@
 @import "minima/estrellas";
 
 $fuente-josefin: 'Josefin Sans', sans-serif;
+$fuente-opensans: 'Open Sans', sans-serif;
+$color-seleccion: #DF0202;
 
 /* Mixin para vertical-align */
 @mixin vertical-align($position: relative) {
@@ -28,7 +30,7 @@ $fuente-josefin: 'Josefin Sans', sans-serif;
 }
 
 ::selection {
-  background: #DF0202;
+  background: $color-seleccion;
 }
 
 // CSS especíico de 'limbo.html'
@@ -54,6 +56,12 @@ $fuente-josefin: 'Josefin Sans', sans-serif;
   font-weight: lighter;
 }
 
+// -CSS especíico de 'limbo.html'
+
+.fuente-opensans{
+  font-family: $fuente-opensans;
+}
+
 // Centra un div en el absoluto centro.
 .centrar {
   @include centrar();
@@ -61,4 +69,57 @@ $fuente-josefin: 'Josefin Sans', sans-serif;
 
 .vertical-align {
   @include vertical-align();
+}
+
+// Animación CSS del loadin p5
+
+@keyframes lds-eclipse {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes lds-eclipse {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.lds-eclipse {
+  position: relative;
+}
+.lds-eclipse div {
+  position: absolute;
+  -webkit-animation: lds-eclipse 0.6s linear infinite;
+  animation: lds-eclipse 0.6s linear infinite;
+  width: 160px;
+  height: 160px;
+  top: 20px;
+  left: 20px;
+  border-radius: 50%;
+  box-shadow: 0 4px 0 0 $color-seleccion;
+  -webkit-transform-origin: 80px 82px;
+  transform-origin: 80px 82px;
+}
+.lds-eclipse {
+  width: 200px !important;
+  height: 200px !important;
+  -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+  transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
 }

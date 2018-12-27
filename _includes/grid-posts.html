@@ -1,1 +1,9 @@
-<p class="h1">Gifs/Postsss</p>
+<div class="card-columns">
+{%for post in site.posts %}
+<a title="{{post.title}}" href="{{post.url}}">
+    <div class="card border-dark ">
+        <img src="{{post.image}}" class="card-img-top" alt="{{post.title}}">
+    </div>
+</a>
+{%endfor%}
+</div>
