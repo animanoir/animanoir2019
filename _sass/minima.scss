@@ -71,7 +71,7 @@ $color-seleccion: #DF0202;
   @include vertical-align();
 }
 
-// Animación CSS del loadin p5
+// Animación CSS del loading p5
 
 @keyframes lds-eclipse {
   0% {
@@ -123,3 +123,6 @@ $color-seleccion: #DF0202;
   -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
   transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
 }
+
+// /Animación CSS del loading p5
+
