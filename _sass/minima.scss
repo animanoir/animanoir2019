@@ -29,6 +29,19 @@ $color-seleccion: #DF0202;
   box-sizing: border-box;
 }
 
+footer a{
+  color: white;
+}
+
+footer a:hover{
+  text-decoration: none;
+  color: rgba($color:black, $alpha: 0.0);
+}
+
+body{
+  min-height: 100%;
+}
+
 ::selection {
   background: $color-seleccion;
 }
@@ -124,5 +137,19 @@ $color-seleccion: #DF0202;
   transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
 }
 
+#menu-lateral{
+  z-index: 100;
+  background-color: rgba($color:black, $alpha: 0.6);
+  position: absolute;
+  right: 0;
+  margin-top: calc(50% - 350px);
+}
+
+.menu-lateral-elemento:hover{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
 // /Animación CSS del loading p5
 
