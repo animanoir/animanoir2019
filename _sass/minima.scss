@@ -6,8 +6,12 @@ $fuente-josefin: 'Josefin Sans', sans-serif;
 $fuente-opensans: 'Open Sans', sans-serif;
 $color-lectura: rgb(233, 233, 233);
 $color-seleccion: #DF0202;
-$color-post-titulo: rgb(199, 0, 0);
+$color-post-titulo: rgb(180, 0, 0);
+$color-post-link: rgb(147, 149, 255);
 
+hr{
+  border-color: gray;
+}
 
 // Scrollbar personal
 ::-webkit-scrollbar {
@@ -192,7 +196,7 @@ body{
   background-color: rgba($color:black, $alpha: 0.6);
   position: fixed;
   right: 0;
-  bottom: calc(100% - 96vh);
+  bottom: calc(100% - 94vh);
   // padding-top: calc(100vh - 79%);
 }
 
@@ -204,4 +208,12 @@ body{
 
 .color-post-titulo{
   color: $color-post-titulo;
+}
+
+.posts{
+  font-size: 0.905rem!important;
+}
+
+.posts a{
+  color: $color-post-link;
 }

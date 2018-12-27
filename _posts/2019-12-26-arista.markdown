@@ -1,13 +1,17 @@
 ---
 layout: post
-title:  "Post 5"
-date:   2018-12-15 19:52:01 -0600
+title:  "Arista"
+date:   2018-11-26 10:52:01 -0600
 categoria: interaccion
-image: "/assets/gifs/sonorum.gif"
-permalink: post5
+image: "/assets/gifs/arista-web.gif"
+permalink: arista-web
 ---
+<div class="pb-3">
+<div class="display-4 fuente-josefin font-weight-bold color-post-titulo">Arïsta.mx</div>
+</div>
+
 <div class="pb-4">
-<p class="display-1 fuente-josefin color-post-titulo">Post 5</p>
+<img class="img-fluid" src="/assets/posts/arista/arista.jpg">
 </div>
 
 <div class="fuente-opensans color-lectura" markdown="1">

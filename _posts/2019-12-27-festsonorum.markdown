@@ -1,18 +1,22 @@
 ---
 layout: post
-title:  "Post 1"
-date:   2018-12-15 19:52:01 -0600
-categoria: animacion
+title:  "Festival Sonorum"
+date:   2018-12-27 11:00:00 -0600
+categoria: interaccion
 image: "/assets/gifs/sonorum.gif"
-permalink: post1
+permalink: festival-sonorum
 ---
-<div class="pb-4">
-<div class="display-1 fuente-josefin ">Post 1</div>
+<div class="pb-3">
+<div class="display-4 fuente-josefin font-weight-bold color-post-titulo">Festival Sonorum</div>
 </div>
 
-<div class="fuente-opensans color-lectura" markdown="1">
+<div class="pb-4">
+<img class="img-fluid" src="/assets/posts/sonorum/festivalsonorum-img1.gif">
+</div>
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+<div class="fuente-opensans color-lectura posts" markdown="1">
+
+Ydfdou’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 

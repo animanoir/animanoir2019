@@ -12,9 +12,31 @@ window.onload = function () {
         'Aphex Twin - 4',
         'La armonía es caos domesticado.',
         'Safety In Solitude',
-        'De una sola fuente todas las cosas dependen.'
+        'De una sola fuente todas las cosas dependen.',
+        'Cancún: Neo-Tristeza',
+        'La sublimación del Powerchord',
+        'Muan Januel',
+        'Diplopia mental.',
+        'El vaivén de tu sangre en momentos de sosiego.',
+        'Unus mundus',
+        'Tu doppelgänger.',
+        'Post-Nouveau avant-garde emofunk.',
+        'paypal.me/omontielanimanoir',
+        'Don\'t forget 3.oct.10',
+        'El que comparte siempre se lleva la mejor parte.',
+        'Lucky stars in your eyes.',
+        'D3530 Y D151MUL4C10N',
+        'Bulgarian otaku.',
+        'h411oween Em0',
+        'By working the soil, we cultivate the sky',
+        'What does Mount Eerie mean?',
+        'One more red nightmare.',
+        'In you I\'m lost',
+        'Petiatil Cx Htdui',
+        'Solo y triste voy a estar en este cementerio...',
+        'Théâtre de la Cruauté',
+        ''
     ];
-
     let menuLatInicio = document.querySelector('#menu-lat-inicio');
 
     menuLatInicio.onmouseenter = function () {
