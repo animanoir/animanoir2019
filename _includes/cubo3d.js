@@ -9,17 +9,18 @@ let CANVAS_HEIGHT = 420;
 let scene = new THREE.Scene();
 let camera = new THREE.PerspectiveCamera(75, (CANVAS_WIDTH / CANVAS_HEIGHT), 0.1, 1000);
 let renderer = new THREE.WebGLRenderer();
-let geometry = new THREE.BoxGeometry(1, 1, 1);
+let geometry = new THREE.CircleGeometry(5, 32);
 
 // Imágenes a cargar en cada lado del cubo.
 let cubeMaterials = [
-    new THREE.MeshBasicMaterial({map: new THREE.TextureLoader().load('{{ "/assets/gifs/yo-gif3.gif" }}'), side: THREE.DoubleSide}),
-    new THREE.MeshBasicMaterial({map: new THREE.TextureLoader().load('{{ "/assets/gifs/yo-gif3.gif" }}'), side: THREE.DoubleSide}),
-    new THREE.MeshBasicMaterial({map: new THREE.TextureLoader().load('{{ "/assets/gifs/yo-gif3.gif" }}'), side: THREE.DoubleSide}),
-    new THREE.MeshBasicMaterial({map: new THREE.TextureLoader().load('{{ "/assets/gifs/yo-gif3.gif" }}'), side: THREE.DoubleSide}),
-    new THREE.MeshBasicMaterial({map: new THREE.TextureLoader().load('{{ "/assets/gifs/yo-gif3.gif" }}'), side: THREE.DoubleSide}),
-    new THREE.MeshBasicMaterial({map: new THREE.TextureLoader().load('{{ "/assets/gifs/yo-gif3.gif" }}'), side: THREE.DoubleSide})
-
+    new THREE.MeshBasicMaterial({
+        map: new THREE.TextureLoader().load('{{ "/assets/gifs/yo.jpg" }}'),
+        side: THREE.DoubleSide
+    }),
+    new THREE.MeshBasicMaterial({
+        map: new THREE.TextureLoader().load('{{ "/assets/gifs/yo.jpg" }}'),
+        side: THREE.DoubleSide
+    })
 ];
 let material = new THREE.MeshFaceMaterial(cubeMaterials);
 let cube = new THREE.Mesh(geometry, material);
@@ -27,13 +28,13 @@ let cube = new THREE.Mesh(geometry, material);
 
 
 // Velocidades de rotación
-let rotX = 0.009;
-let rotY = 0.007;
+let rotX = 0.008;
+let rotY = 0.009;
 
 //Cubo
 scene.add(cube);
 
-camera.position.z = 1.5;
+camera.position.z = 10;
 
 
 
@@ -41,7 +42,6 @@ renderer.setSize(CANVAS_WIDTH, CANVAS_HEIGHT);
 cubo3d.appendChild(renderer.domElement);
 
 animate();
-
 
 function animate() {
     cube.rotation.x += rotX;

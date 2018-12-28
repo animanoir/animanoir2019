@@ -20,56 +20,7 @@
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script> -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
     crossorigin="anonymous"></script>
-  <script src="{{ "/assets/js/app.js" }}"></script>
-  <script src="{{ "/assets/js/three.min.js" }}"></script>
-
-  <!-- Three.js ------------------------------------------------>
-  <script>
-    let scene = new THREE.Scene();
-    let camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-
-    let renderer = new THREE.WebGLRenderer();
-    renderer.setSize(window.innerWidth, window.innerHeight);
-    document.body.appendChild(renderer.domElement);
-
-    let material = new THREE.MeshBasicMaterial({
-      color: 0xff0000,
-      wireframe: true
-    });
-    let loader = new THREE.FontLoader();
-
-    loader.load('{{ "/assets/js/helvetiker_regular.typeface.json" }}', function (font) {
-
-      let texto3d = new THREE.TextGeometry('Animanoir', {
-        font: font,
-        size: 800,
-        height: 5,
-        curveSegments: 12,
-        bevelEnabled: true,
-        bevelThickness: 10,
-        bevelSize: 8,
-        bevelSegments: 5
-      });
-    });
-
-    let texto3dMesh = new THREE.Mesh(texto3d, material);
-    scene.add(texto3dMesh);
-
-
-    camera.position.z = 5;
-
-    // let animate = function () {
-    //   requestAnimationFrame(animate);
-
-    //   cube.rotation.x += 0.01;
-    //   cube.rotation.y += 0.01;
-
-    //   renderer.render(scene, camera);
-    // };
-
-    // animate();
-
-  </script>
+  <script defer src="{{ "/assets/js/app.js" }}"></script>
 
 </body>
 
