@@ -1,7 +1,5 @@
 <div class="card-columns">
-
     {%for post in site.posts %}
-
     <a title="{{post.title}}" href="{{post.url}}">
             {% if post.categoria contains 'blog' %}
             <a title="{{post.title}}" href="{{post.url}}">
@@ -11,7 +9,5 @@
                 </a>
             {% endif %}
     </a>
-    
     {%endfor%}
-
 </div>

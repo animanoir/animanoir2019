@@ -3,49 +3,62 @@
 // Selecciona el div con el # especificado.
 let cubo3d = document.querySelector('#cubo3d')
 // Estos valores dependen de los del CSS para que cuadre bien el cubo en su posición.
-let CANVAS_WIDTH = 420;
-let CANVAS_HEIGHT = 420;
+let CANVAS_WIDTH = 450;
+let CANVAS_HEIGHT = 450;
 
+// Escenario
 let scene = new THREE.Scene();
 let camera = new THREE.PerspectiveCamera(75, (CANVAS_WIDTH / CANVAS_HEIGHT), 0.1, 1000);
 let renderer = new THREE.WebGLRenderer();
-let geometry = new THREE.CircleGeometry(5, 32);
 
-// Imágenes a cargar en cada lado del cubo.
-let cubeMaterials = [
-    new THREE.MeshBasicMaterial({
-        map: new THREE.TextureLoader().load('{{ "/assets/gifs/yo.jpg" }}'),
-        side: THREE.DoubleSide
-    }),
-    new THREE.MeshBasicMaterial({
-        map: new THREE.TextureLoader().load('{{ "/assets/gifs/yo.jpg" }}'),
-        side: THREE.DoubleSide
-    })
-];
-let material = new THREE.MeshFaceMaterial(cubeMaterials);
-let cube = new THREE.Mesh(geometry, material);
-
-
-
+// Círculo
+let textureLoader = new THREE.TextureLoader();
+let texture1 = textureLoader.load('{{ "/assets/gifs/yo.jpg" }}');
+let texture2 = textureLoader.load('{{ "/assets/gifs/404-yo.gif" }}');
+let circleGeom = new THREE.CircleGeometry(6, 32);
+let circleMat = new THREE.MeshBasicMaterial({
+    map: texture1,
+    side: THREE.DoubleSide
+});
+let circleMesh = new THREE.Mesh(circleGeom, circleMat);
 // Velocidades de rotación
 let rotX = 0.008;
 let rotY = 0.009;
+let swapSpeed = 500; //En ms.
 
-//Cubo
-scene.add(cube);
+scene.add(circleMesh);
+
+// Función que cambia las texturas.
+window.setInterval(swapTextures, swapSpeed);
 
 camera.position.z = 10;
-
-
-
 renderer.setSize(CANVAS_WIDTH, CANVAS_HEIGHT);
 cubo3d.appendChild(renderer.domElement);
 
 animate();
 
+// Funciones --------------------------------------
+
 function animate() {
-    cube.rotation.x += rotX;
-    cube.rotation.y += rotY;
+    circleMesh.rotation.x += rotX;
+    circleMesh.rotation.y += rotY;
     requestAnimationFrame(animate);
     renderer.render(scene, camera);
+}
+
+// Resize responsivo
+window.addEventListener('resize', function () {
+    let width = CANVAS_WIDTH;
+    let height = CANVAS_HEIGHT;
+    renderer.setSize(width, height);
+    camera.aspect = width / height;
+    camera.updateProjectionMatrix();
+});
+
+function swapTextures() {
+    if (circleMat.map === texture1) {
+        circleMat.map = texture2;
+    } else {
+        circleMat.map = texture1;
+    }
 }

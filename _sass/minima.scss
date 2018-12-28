@@ -8,6 +8,7 @@ $color-lectura: rgb(233, 233, 233);
 $color-seleccion: #DF0202;
 $color-post-titulo: rgb(180, 0, 0);
 $color-post-link: rgb(147, 197, 255);
+$bs-md-break: 768px;
 
 hr{
   border-color: gray;
@@ -144,7 +145,16 @@ body{
   position: fixed;
   right: 0;
   bottom: calc(100% - 94vh);
-  // padding-top: calc(100vh - 79%);
+  // Este media hace que el menú lateral desaparezca en pantallas chicas.
+  @media screen and (max-width: $bs-md-break){
+    display: none;
+  }
+}
+
+#menu-navbar{
+  @media screen and (min-width: $bs-md-break){
+    display: none;
+  }
 }
 
 // /Animación CSS del loading p5
@@ -166,16 +176,15 @@ body{
 }
 
 #miNombre{
-  text-shadow: -4px 5px 1px red, 1px 4px 2px green, 4px 7px 3px blue;
+  text-shadow: -4px 5px 1px red, 1px 4px 2px green, 4px 7px 2px blue;
 }
 
 #links-contacto a{
   color: $color-post-link;
 }
 
-
 // CSS especial para el 3D en 'contacto'.
 #cubo3d{
-  width: 420px;
-  height: 420px;
+  width: 450px;
+  height: 450px;
 }

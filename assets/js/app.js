@@ -35,7 +35,11 @@ window.onload = function () {
         'Petiatil Cx Htdui',
         'Solo y triste voy a estar en este cementerio...',
         'Théâtre de la Cruauté',
-        'Death is real.'
+        'Death is real.',
+        'Anata no urami, harashimasu.',
+        'Nah und fern.',
+        'Fortuna favet fortibus',
+        'El inconsciente colectivo.'
     ];
     let menuLatInicio = document.querySelector('#menu-lat-inicio');
 

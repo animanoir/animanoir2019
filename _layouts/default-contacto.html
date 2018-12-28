@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "es" }}">
 {%- include head.html -%}
-
 <body style="background: #020202;">
-  <main aria-label="Content">
+    {%- include navbar.html -%}
     {%- include menu_lateral.html -%}
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 pt-4">
-          <!-- Aquí va el 3D de three.js -->
-          <div class="d-flex justify-content-center">
-              <div id="cubo3d"></div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="text-center">
-              <p id="miNombre" class="fuente-opensans text-white h2">Óscar A. Montiel</p>
-              <p id="links-contacto" class="text-white"><span><a href="https://github.com/animanoir" target="_blank">Github</a></span> | <span> <a href="https://www.linkedin.com/in/oscaramontiel/" target="_blank">LinkedIn</a></span></p>
-              <p class="text-white fuente-josefin-light">omontiel@animanoir.com</p>       
+  <main aria-label="Content">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12 pt-3">
+                <!-- Aquí va el 3D de three.js -->
+                <div class="d-flex justify-content-center">
+                    <div id="cubo3d"></div>
+                </div>
+              </div>
             </div>
-        </div>
-      </div>
-    </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="text-center pt-3">
+                    <p id="miNombre" class="fuente-opensans text-white h2">Óscar A. Montiel</p>
+                    <p id="links-contacto" class="text-white"><span><a href="https://github.com/animanoir" target="_blank">GitHub</a></span> | <span> <a href="https://www.linkedin.com/in/oscaramontiel/" target="_blank">LinkedIn</a></span></p>
+                    <p class="text-white fuente-josefin-light">omontiel@animanoir.com</p>       
+                  </div>
+              </div>
+            </div>
+          </div>
   </main>
   {%- include footer.html -%}
   <!-- BS 4.2 JS -->
@@ -43,5 +43,4 @@
   </script>
 
 </body>
-
 </html>
