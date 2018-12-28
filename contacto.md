@@ -1,4 +1,4 @@
 ---
-layout: default
+layout: default-contacto
 permalink: contacto
 ---

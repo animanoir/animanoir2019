@@ -2,7 +2,7 @@ window.onload = function () {
 
     // Pequeño script que cambia el texto cuando metes el mouse.
     let arrayPalabras = [
-        'Sé muchos secretos. ¿Sabes más secretos que yo?',
+        '¿Cuántos secretos sabes?',
         'Somos seres espirituales con experiencia humana.',
         'Sexo, muerte y matemáticas.',
         'Per aspera ad astra.',
@@ -35,7 +35,7 @@ window.onload = function () {
         'Petiatil Cx Htdui',
         'Solo y triste voy a estar en este cementerio...',
         'Théâtre de la Cruauté',
-        ''
+        'Death is real.'
     ];
     let menuLatInicio = document.querySelector('#menu-lat-inicio');
 
