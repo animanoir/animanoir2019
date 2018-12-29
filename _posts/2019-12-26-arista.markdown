@@ -8,7 +8,7 @@ permalink: arista-web
 ---
 <div class="pb-3">
 <div class="display-4 fuente-josefin font-weight-bold color-post-titulo">Web: <i>Arïsta.mx</i> </div>
-<small class="text-muted">(2017)</small>
+<small class="text-dark">(2017)</small>
 </div>
 
 <div class="pb-4">

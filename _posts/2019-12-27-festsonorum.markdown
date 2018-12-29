@@ -7,7 +7,7 @@ image: "/assets/gifs/sonorum.gif"
 permalink: festival-sonorum
 ---
 <div class="pb-3">
-<div class="display-4 fuente-josefin font-weight-bold color-post-titulo">Web <i>F. Sonorum (Qro.)</i></div> <small class="text-muted">(2016/17)</small>
+<div class="display-4 fuente-josefin font-weight-bold color-post-titulo">Web <i>F. Sonorum (Qro.)</i></div> <small class="text-dark">(2016/17)</small>
 </div>
 
 <div class="pb-4">

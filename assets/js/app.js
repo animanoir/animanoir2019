@@ -39,7 +39,9 @@ window.onload = function () {
         'Anata no urami, harashimasu.',
         'Nah und fern.',
         'Fortuna favet fortibus',
-        'El inconsciente colectivo.'
+        'El inconsciente colectivo.',
+        'Él te ama',
+        'Ráyame mi muro.'
     ];
     let menuLatInicio = document.querySelector('#menu-lat-inicio');
 
