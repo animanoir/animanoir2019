@@ -8,6 +8,7 @@ permalink: evolucion-animanoir-web
 ---
 <div class="pb-3">
 <div class="display-4 fuente-josefin font-weight-bold color-post-titulo">Evolución <i>Animanoir</i></div>
+<small class="text-muted">(2015/18)</small>
 </div>
 
 <div class="pb-4">

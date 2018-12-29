@@ -7,49 +7,27 @@ image: "/assets/gifs/sonorum.gif"
 permalink: festival-sonorum
 ---
 <div class="pb-3">
-<div class="display-4 fuente-josefin font-weight-bold color-post-titulo">Festival Sonorum</div>
+<div class="display-4 fuente-josefin font-weight-bold color-post-titulo">Web <i>F. Sonorum (Qro.)</i></div> <small class="text-muted">(2016/17)</small>
 </div>
 
 <div class="pb-4">
 <img class="img-fluid" src="/assets/posts/sonorum/festivalsonorum-img1.gif">
 </div>
 
-<div class="fuente-opensans color-lectura posts" markdown="1">
+<hr>
 
-Ydfdou’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+<div class="pt-1 fuente-opensans color-lectura posts" markdown="1">
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+<h3> <a href="https://festivalsonorum.github.io/pagina-web-sonorum/" target="_blank">Festival Sonorum . com</a> </h3>
 
-Jekyll also offers powerful support for code snippets:
+**<span class="h3">F</span>estival Sonorum** es un festival dedicado a **la exploración de nuevo medios (tecnológicos)** para la creación artística. Participé desarrollando su **sitio web** para las ediciones del 2016 y 2017.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Festival Sonorum es una propuesta que busca conjugar diferentes medios artisticos/tecnológicos en un sólo sitio, entre los que han destacado Takami Nakamoto, /* pac interactive*, Esstro9, entre otros importantes exponentes del arte digital a nivel mundial.
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Estos eventos buscan atraer a la gente al lado bueno de la fusión entre arte y tecnología.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+<img class="img-fluid pb-4" src="/assets/posts/sonorum/sonorum1.jpg">
+<img class="img-fluid pb-4" src="/assets/posts/sonorum/sonorum2.jpg">
 
 </div>
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
