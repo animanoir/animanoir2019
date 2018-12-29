@@ -1,16 +1,16 @@
 <!-- Menú lateral. -->
 <div id="menu-lateral">
     <div class="p-5 font-italic">
-        <a title="Inicio" href="purgatorio.html">
+        <a title="Inicio" href="limbo.html">
             <h1 id="menu-lat-inicio" class="fuente-josefin text-white">{{site.title}}</h1>
         </a>
         <ul class="text-white fuente-opensans list-unstyled">
-            <li><a class="pr-1" href="purgatorio-anim.html">Animación</a></li>
-            <li><a class="pr-1" href="purgatorio-inter.html">Interacción</a></li>
-            <li><a class="pr-1" href="purgatorio-blog.html">Textual/Blog</a></li>
+            <li><a class="pr-1 {% if page.name == 'limbo-anim.md' %}activo{% endif %} " href="limbo-anim.html">Animación</a></li>
+            <li><a class="pr-1 {% if page.name == 'limbo-inter.md' %}activo{% endif %} " href="limbo-inter.html">Interacción</a></li>
+            <li><a class="pr-1 {% if page.name == 'limbo-blog.md' %}activo{% endif %}" href="limbo-blog.html">Textual/Blog</a></li>
             <br>
-            <li><a class="pr-1" href="acerca.html">Acerca</a></li>
-            <li><a class="pr-1" href="contacto.html">Contacto</a></li>
+            <li><a class="pr-1 {% if page.name == 'acerca.md' %}activo{% endif %} " href="acerca.html">Acerca</a></li>
+            <li><a class="pr-1 {% if page.name == 'contacto.md' %}activo{% endif %} " href="contacto.html">Contacto</a></li>
         </ul>
     </div>
 </div>

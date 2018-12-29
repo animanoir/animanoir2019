@@ -4,7 +4,7 @@ title:  "Gifs"
 date:   2018-12-15 19:52:01 -0600
 categoria: animacion
 image: "/assets/gifs/ello-img1.gif"
-permalink: post4
+permalink: gifs-ello
 ---
 <div class="pb-3">
 <div class="display-4 fuente-josefin font-weight-bold color-post-titulo">Gifs</div> <small class="text-dark">(siempre)</small>
@@ -26,9 +26,7 @@ Mientras tanto, gifs:
 
 <img class="img-fluid" src="/assets/posts/ello/ello-img3.gif">
 
-Para más, [ello.co](https://ello.co/animanoir){:target="_blank"}, y el [Flickr](https://www.flickr.com/photos/animanoir/){:target="_blank"} de una ves, alv.
-
-
+Para más, [ello.co](https://ello.co/animanoir){:target="_blank"}, y el [Flickr](https://www.flickr.com/photos/animanoir/){:target="_blank"} de una vez.
 
 
 </div>

@@ -9,6 +9,7 @@ $color-seleccion: #DF0202;
 $color-post-titulo: rgb(180, 0, 0);
 $color-post-link: rgb(147, 197, 255);
 $bs-md-break: 768px;
+$color-fondo-body: #020202;
 
 hr{
   border-color: gray;
@@ -236,4 +237,18 @@ body{
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.bg-card-dark{
+  background-color: #020202;
+}
+
+.activo{
+  background-color: white;
+  color: black!important;
+  font-weight: bold;
+}
+
+.bg-navbar-color{
+  background-color: #181817;
 }

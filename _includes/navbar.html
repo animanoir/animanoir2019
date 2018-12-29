@@ -1,6 +1,6 @@
 <div id="navbar-oculto" class="hidden""></div>
 <div id="menu-navbar">
-        <nav class="navbar navbar-dark navbar-expand-md bg-dark">
+        <nav class="navbar navbar-dark navbar-expand-md bg-navbar-color">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -8,12 +8,12 @@
                 <a class="navbar-brand" href="404.html">A N I M A N O I R</a>
                 <div class="collapse navbar-collapse font-italic" id="navbarToggler">
                     <div class="navbar-nav float-right text-right pr-3">
-                        <a class="fuente-opensans h4 nav-item nav-link" href="purgatorio.html">Inicio<span class="sr-only">(current)</span></a>
-                        <a class="fuente-opensans h4 nav-item nav-link" href="purgatorio-anim.html">Animación</a>
-                        <a class="fuente-opensans h4 nav-item nav-link" href="purgatorio-inter.html">Interacción</a>
-                        <a class="fuente-opensans h4 nav-item nav-link" href="purgatorio-blog.html">Textual/Blog</a>
-                        <a class="fuente-opensans h4 nav-item nav-link" href="acerca.html">Acerca</a>
-                        <a class="fuente-opensans h4 nav-item nav-link" href="contacto.html">Contacto</a>
+                        <a class="fuente-opensans h4 nav-item nav-link {% if page.name == 'limbo.md' %}activo pr-1{% endif %}" href="limbo.html">Inicio</a>
+                        <a class="fuente-opensans h4 nav-item nav-link {% if page.name == 'limbo-anim.md' %}activo pr-1{% endif %}" href="limbo-anim.html">Animación</a>
+                        <a class="fuente-opensans h4 nav-item nav-link {% if page.name == 'limbo-inter.md' %}activo pr-1{% endif %}" href="limbo-inter.html">Interacción</a>
+                        <a class="fuente-opensans h4 nav-item nav-link {% if page.name == 'limbo-blog.md' %}activo pr-1{% endif %}" href="limbo-blog.html">Textual/Blog</a>
+                        <a class="fuente-opensans h4 nav-item nav-link {% if page.name == 'acerca.md' %}activo pr-1{% endif %}" href="acerca.html">Acerca</a>
+                        <a class="fuente-opensans h4 nav-item nav-link {% if page.name == 'contacto.md' %}activo pr-1{% endif %}" href="contacto.html">Contacto</a>
                     </div>
                 </div>
         </nav>

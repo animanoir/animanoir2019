@@ -61,7 +61,7 @@ window.addEventListener('resize', function () {
 
 function swapTextures() {
     let i = Math.floor(Math.random()*arrayTexturas.length);
-    console.log(i);
+    // console.log(i);
     circleMat.map = arrayTexturas[i];
     // if (circleMat.map === texture1) {
     //     circleMat.map = texture2;
