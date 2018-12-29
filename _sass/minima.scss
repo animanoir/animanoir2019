@@ -198,3 +198,11 @@ body{
   width: 450px;
   height: 450px;
 }
+
+// Ésto hace que el contenido, cuando es menor a md, se haga para abajo.
+#navbar-oculto{
+  height:0px;
+  @media screen and (max-width: $bs-md-break){
+    height: 50px;
+  }
+}

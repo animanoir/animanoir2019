@@ -6,7 +6,7 @@ categoria: blog
 image: "/assets/gifs/logos-animanoir.gif"
 permalink: evolucion-animanoir-web
 ---
-<div class="py-3">
+<div class="pb-3">
 <div class="display-4 fuente-josefin font-weight-bold color-post-titulo">Evolución <i>Animanoir</i></div>
 </div>
 
