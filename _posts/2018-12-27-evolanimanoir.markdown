@@ -6,8 +6,8 @@ categoria: blog
 image: "/assets/gifs/logos-animanoir.gif"
 permalink: evolucion-animanoir-web
 ---
-<div class="pb-3">
-<div class="display-4 fuente-josefin font-weight-bold color-post-titulo">Evolución de <i>Animanoir.com</i></div>
+<div class="py-3">
+<div class="display-4 fuente-josefin font-weight-bold color-post-titulo">Evolución <i>Animanoir</i></div>
 </div>
 
 <div class="pb-4">
@@ -25,6 +25,5 @@ Hay personas, y por ende sus creaciones, que sangran animaciones, monitos movié
 Fuck that.
 
 Por éso yo le tiro un chingo a lo oculto. He encontrado sitios web, arte, etc., en por accidente que me han dejad exaltado. 
-
 </div>
 

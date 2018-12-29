@@ -14,7 +14,11 @@ let renderer = new THREE.WebGLRenderer();
 // Círculo
 let textureLoader = new THREE.TextureLoader();
 let texture1 = textureLoader.load('{{ "/assets/gifs/yo.jpg" }}');
-let texture2 = textureLoader.load('{{ "/assets/gifs/404-yo.gif" }}');
+let texture2 = textureLoader.load('{{ "/assets/gifs/yo3.jpg" }}');
+let texture3 = textureLoader.load('{{ "/assets/gifs/yo2.jpg" }}');
+let texture4 = textureLoader.load('{{ "/assets/gifs/qr-con-mi-sex-tape.jpg" }}');
+let arrayTexturas = [texture1, texture2, texture3, texture4];
+
 let circleGeom = new THREE.CircleGeometry(6, 32);
 let circleMat = new THREE.MeshBasicMaterial({
     map: texture1,
@@ -22,9 +26,9 @@ let circleMat = new THREE.MeshBasicMaterial({
 });
 let circleMesh = new THREE.Mesh(circleGeom, circleMat);
 // Velocidades de rotación
-let rotX = 0.008;
-let rotY = 0.009;
-let swapSpeed = 500; //En ms.
+let rotX = 0.00001;
+let rotY = 0.006;
+let swapSpeed = 333; //En ms.
 
 scene.add(circleMesh);
 
@@ -56,9 +60,12 @@ window.addEventListener('resize', function () {
 });
 
 function swapTextures() {
-    if (circleMat.map === texture1) {
-        circleMat.map = texture2;
-    } else {
-        circleMat.map = texture1;
-    }
+    let i = Math.floor(Math.random()*arrayTexturas.length);
+    console.log(i);
+    circleMat.map = arrayTexturas[i];
+    // if (circleMat.map === texture1) {
+    //     circleMat.map = texture2;
+    // } else {
+    //     circleMat.map = texture1;
+    // }
 }

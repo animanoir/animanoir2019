@@ -51,4 +51,15 @@ window.onload = function () {
     menuLatInicio.onmouseleave = function () {
         menuLatInicio.textContent = 'Animanoir';
     }
+
+    let prevScrollpos = window.pageYOffset;
+    window.onscroll = function () {
+        let currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("menu-navbar").style.top = "0";
+        } else {
+            document.getElementById("menu-navbar").style.top = "-60px";
+        }
+        prevScrollpos = currentScrollPos;
+    }
 }
