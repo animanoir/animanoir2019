@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Gifs"
+date:   2018-12-15 19:52:01 -0600
+categoria: animacion
+image: "/assets/gifs/ello-img1.gif"
+permalink: post4
+---
+<div class="pb-3">
+<div class="display-4 fuente-josefin font-weight-bold color-post-titulo">Gifs</div> <small class="text-dark">(siempre)</small>
+</div>
+
+<div class="pb-4">
+<img class="img-fluid" src="/assets/posts/ello/ello.gif">
+</div>
+
+<hr>
+
+<div class="pt-1 fuente-opensans color-lectura posts" markdown="1">
+
+**<span class="h3">A</span>mo la animación**, eventualmente haré animación 2D/tradicional, 3D, interactiva, lo que sea; todo lo que se mueva. Pero aún sigo aprendiendo tanto a dibujar como a animar (artes sumamente complejas).
+
+Mientras tanto, gifs:
+
+<img class="img-fluid" src="/assets/posts/ello/ello-img2.gif">
+
+<img class="img-fluid" src="/assets/posts/ello/ello-img3.gif">
+
+Para más, [ello.co](https://ello.co/animanoir){:target="_blank"}, y el [Flickr](https://www.flickr.com/photos/animanoir/){:target="_blank"} de una ves, alv
+
+
+
+
+</div>

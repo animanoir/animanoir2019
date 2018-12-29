@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Homo Techno Sapiens"
+date:   2017-12-15 19:52:01 -0600
+categoria: blog
+image: "/assets/gifs/hts-gif.gif"
+permalink: revista-ouroboros
+---
+<div class="pb-3">
+<div class="display-4 fuente-josefin font-weight-bold color-post-titulo">Revista Ouroboros</div> <small class="text-dark">(2014)</small>
+</div>
+
+<div class="pb-4">
+<img class="img-fluid" src="/assets/posts/rouroboros/ro-img1.jpg">
+</div>
+
+<hr>
+
+<div class="pt-1 fuente-opensans color-lectura posts" markdown="1">
+
+<span class="h3">A</span> principios del año 2014 se abrió la convocatoria para participar en la 3º edición de la revista Ouroboros, la cual es publicada semestralmente por la Facultad de Bellas Artes de la UAQ. Tenía conocimiento de ella desde el año pasado ya que habla de cosas que me interesan bastante: artes visuales/tecnológicas, educación, entre otros temas de la cultura digital.
+
+Así que viendo la convocatoria decidí meterme “pa’ ver qué pasaba”. El resultado fue alentador; fui seleccionado para que mi artículo titulado Homo Techno Sapiens (muy creativo, eh) apareciera en la revista dedicada a los temas del arte, tecnología y educación.
+
+La presentación de la revista fue en dos ocasiones: la primera en la cafetería de BA y la 2ª en la hermosa Biblioteca Pública de San Miguel de Allende.
+
+<img class="img-fluid" src="/assets/posts/rouroboros/ro-img2.jpg">
+
+A quien le interese el arte y su futuro como herramienta para educar, recomiendo ampliamente obtener la revista, no sólo porque un texto mío aparece allí, sino porque incluye muchos más artículos con diferentes puntos de vistas acerca del estado actual del arte digital y el ilimitado potencial que podríamos sacarle para educar al mundo, además de que tiene imágenes muy pinches chidas.
+
+La revista la pueden encontrar en la [Librería UAQ](http://libreria.uaq.mx/){:target="_blank"} y en la estantería de libros en FBA de la misma universidad.
+
+</div>

@@ -40,8 +40,13 @@ window.onload = function () {
         'Nah und fern.',
         'Fortuna favet fortibus',
         'El inconsciente colectivo.',
-        'Él te ama',
-        'Ráyame mi muro.'
+        'Él te ama.',
+        'Ráyame mi muro.',
+        'Shine on You crazy Diamond',
+        'Cuando uno deja de crecer, empieza a morir.',
+        'Amor adolescente.',
+        'Autoscopia',
+        'Su piel era música tangible.',
     ];
     let menuLatInicio = document.querySelector('#menu-lat-inicio');
 
