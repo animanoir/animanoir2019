@@ -26,7 +26,7 @@ Mientras tanto, gifs:
 
 <img class="img-fluid" src="/assets/posts/ello/ello-img3.gif">
 
-Para más, [ello.co](https://ello.co/animanoir){:target="_blank"}, y el [Flickr](https://www.flickr.com/photos/animanoir/){:target="_blank"} de una ves, alv
+Para más, [ello.co](https://ello.co/animanoir){:target="_blank"}, y el [Flickr](https://www.flickr.com/photos/animanoir/){:target="_blank"} de una ves, alv.
 
 
 

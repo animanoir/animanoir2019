@@ -47,6 +47,13 @@ window.onload = function () {
         'Amor adolescente.',
         'Autoscopia',
         'Su piel era música tangible.',
+        'O<-^3<',
+        'Góticotakus',
+        'Yesterday and today.',
+        'Llévame un día a tu lugar secreto.',
+        'Hipersensible a la realidad.',
+        'A.R Kane invented shoegaze.',
+        'A stop at the chord cascades.'
     ];
     let menuLatInicio = document.querySelector('#menu-lat-inicio');
 
