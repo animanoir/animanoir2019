@@ -1,41 +1,48 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "es" }}">
 {%- include head.html -%}
+
 <body style="background: #020202;">
-    {%- include navbar.html -%}
-    {%- include menu_lateral.html -%}
-  <main aria-label="Content">
-        <div class="container pt-2">
-            <div class="row">
-              <div class="col-md-12 pt-3">
-                <!-- Aquí va el 3D de three.js -->
-                <div class="d-flex justify-content-center">
-                    <div id="cubo3d"></div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12">
-                <div class="text-center pt-3">
-                    <p id="miNombre" class="fuente-opensans text-white h2 font-weight-bold">Óscar A. Montiel</p>
-                    <p id="links-contacto" class="text-white"><span><a href="https://github.com/animanoir" target="_blank">GitHub</a></span> | <span> <a href="https://www.linkedin.com/in/oscaramontiel/" target="_blank">LinkedIn (C.V.)</a></span></p>
-                    <p class="text-white fuente-josefin-light">omontiel@animanoir.com</p>
-                  </div>
-              </div>
-            </div>
-          </div>
-  </main>
-  {%- include footer.html -%}
-  {%- include bootstrapjs.html -%}
-  <script defer src="{{ "/assets/js/app.js" }}"></script>
-  <script src="{{ "/assets/js/three.min.js" }}"></script>
-
-  <!-- Three.js ------------------------------------------------>
-  <script defer>
-
-    {%- include cubo3d.js -%}
-
-  </script>
+	{%- include navbar.html -%}
+	{%- include menu_lateral.html -%}
+	<main aria-label="Content">
+		<div class="container pt-2">
+			<div class="row">
+				<div class="col-md-12 pt-3">
+					<!-- Aquí va el 3D de three.js -->
+					<div class="d-flex justify-content-center">
+						<div id="cubo3d"></div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="text-center mt-3">
+						<p id="miNombre" class="fuente-opensans text-white h2 font-weight-bold">Óscar A. Montiel</p>
+						<div class="d-flex justify-content-center text-center">
+								<div id="links-contacto" class="d-flex justify-content-around w-25">
+										<a  href="https://github.com/animanoir" target="_blank">{%- include github-logo.svg -%}</a>
+										<a  href="https://www.linkedin.com/in/oscaramontiel/" target="_blank">{%- include linkedin-icon.svg -%} </a>
+										<a href="https://safetyinsolitude.blogspot.com/" target="_blank">{%- include blogger-icon.svg -%} </a>
+										<a  href="https://twitter.com/geosminu" target="_blank">{%- include twitter-icon.svg -%} </a>
+										<a href="https://soundcloud.com/geosmina2" target="_blank">{%- include soundcloud-icon.svg -%} </a>
+								</div>
+						</div>
+						<p class="text-white fuente-josefin-light mt-3">omontiel@animanoir.com</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	{%- include footer.html -%}
+	{%- include bootstrapjs.html -%}
+	<script defer src="{{ "/assets/js/app.js" }}"></script>
+	<script src="{{ "/assets/js/three.min.js" }}"></script>
+	<!-- Three.js ------------------------------------------------>
+	<script defer>
+		{%- include cubo3d.js -%}
+	</script>
 
 </body>
+
 </html>
