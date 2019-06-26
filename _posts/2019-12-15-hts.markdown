@@ -11,7 +11,7 @@ permalink: revista-ouroboros
 </div>
 
 <div class="pb-4">
-<img class="img-fluid" src="/assets/posts/rouroboros/ro-img1.jpg">
+<img class="img-fluid" src="/assets/posts/rouroboros/ro-img1.jpg" alt="animanoir UAQ ouroboros revista Querétaro Universidad Autónom de Querétaro Óscar A. Montiel">
 </div>
 
 <hr>
@@ -24,7 +24,7 @@ Así que viendo la convocatoria decidí meterme “pa’ ver qué pasaba”. El 
 
 La presentación de la revista fue en dos ocasiones: la primera en la cafetería de BA y la 2ª en la hermosa Biblioteca Pública de San Miguel de Allende.
 
-<img class="img-fluid" src="/assets/posts/rouroboros/ro-img2.jpg">
+<img class="img-fluid" src="/assets/posts/rouroboros/ro-img2.jpg" alt="biblioteca San Miguel de Allende Animanoir mural">
 
 A quien le interese el arte y su futuro como herramienta para educar, recomiendo ampliamente obtener la revista, no sólo porque un texto mío aparece allí, sino porque incluye muchos más artículos con diferentes puntos de vistas acerca del estado actual del arte digital y el ilimitado potencial que podríamos sacarle para educar al mundo, además de que tiene imágenes muy chidas.
 

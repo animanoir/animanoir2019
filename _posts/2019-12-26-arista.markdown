@@ -12,7 +12,7 @@ permalink: arista-web
 </div>
 
 <div class="pb-4">
-<img class="img-fluid" src="/assets/posts/arista/arista.jpg">
+<img class="img-fluid" src="/assets/posts/arista/arista.jpg" alt="arista bolsas artesanías animanoir">
 </div>
 
 <hr>

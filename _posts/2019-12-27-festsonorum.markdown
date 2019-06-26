@@ -27,7 +27,7 @@ Festival Sonorum es una propuesta que busca conjugar diferentes medios artistico
 
 Estos eventos buscan atraer a la gente al lado bueno de la fusión entre arte y tecnología.
 
-<img class="img-fluid pb-4" src="/assets/posts/sonorum/sonorum1.jpg">
-<img class="img-fluid pb-4" src="/assets/posts/sonorum/sonorum2.jpg">
+<img class="img-fluid pb-4" src="/assets/posts/sonorum/sonorum1.jpg" alt="festival sonorum querétaro Animanoir p5js">
+<img class="img-fluid pb-4" src="/assets/posts/sonorum/sonorum2.jpg" alt="festival sonorum querétaro Animanoir p5js">
 
 </div>

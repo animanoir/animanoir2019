@@ -12,7 +12,7 @@ permalink: evolucion-animanoir-web
 </div>
 
 <div class="pb-4">
-<img class="img-fluid" src="/assets/posts/evolanim/evolanim-img1.jpg">
+<img class="img-fluid" src="/assets/posts/evolanim/evolanim-img1.jpg" alt="evolución animanoir historia">
 </div>
 
 <div class="pt-1 fuente-opensans color-lectura posts" markdown="1">

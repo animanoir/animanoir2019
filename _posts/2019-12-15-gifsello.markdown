@@ -11,7 +11,7 @@ permalink: gifs-ello
 </div>
 
 <div class="pb-4">
-<img class="img-fluid" src="/assets/posts/ello/ello.gif">
+<img class="img-fluid" src="/assets/posts/ello/ello.gif" alt="gifs gif animanoir animación oscuridad cerillo">
 </div>
 
 <hr>
@@ -22,9 +22,9 @@ permalink: gifs-ello
 
 Mientras tanto, gifs:
 
-<img class="img-fluid" src="/assets/posts/ello/ello-img2.gif">
+<img class="img-fluid" src="/assets/posts/ello/ello-img2.gif" alt="gif animanoir animación">
 
-<img class="img-fluid" src="/assets/posts/ello/ello-img3.gif">
+<img class="img-fluid" src="/assets/posts/ello/ello-img3.gif" alt="gif animanoir animación">
 
 Para más, [ello.co](https://ello.co/animanoir){:target="_blank"}, y el [Flickr](https://www.flickr.com/photos/animanoir/){:target="_blank"} de una vez.
 
